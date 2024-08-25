@@ -273,8 +273,12 @@ Header
  ========== */
 .header {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/main-bcg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
   position: relative;
   /* animation */
   overflow-x: hidden;
